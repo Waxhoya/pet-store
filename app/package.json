@@ -6,7 +6,14 @@
   "scripts": {
     "lint": "eslint .",
     "pretest":"npm run lint",
-    "test": "karma start --single-run"
+    "test": "karma start --single-run",
+    "test:watch": "karma start",
+    "start": "webpack-dev-server --inline",
+    "build": "webpack",
+    "update-webdriver": "webdriver-manager update",
+    "pree2e": "babel test-e2e-src --out-dir test-e2e",
+    "e2e": "protractor",
+    "e2e-explore": "protractor --elementExplorer"
   },
   "repository": {
     "type": "git",
