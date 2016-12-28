@@ -58,11 +58,11 @@
     "angular-animate": "^1.6.0",
     "angular-resource": "^1.6.0",
     "angular-ui-router": "^1.0.0-beta.3",
-    "camelcase": "^4.0.0",
-    "ng-dialog": "^0.6.4"
+    "camelcase": "^4.0.0"
   },
   "babel": {
     "presets": [
       "es2015"
     ]
   }
+}
